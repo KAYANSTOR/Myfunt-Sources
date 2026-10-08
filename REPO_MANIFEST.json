@@ -1,0 +1,815 @@
+{
+  "package": "Mivent Flutter Source of Truth",
+  "package_version": "1.0.0",
+  "prepared_at": "2026-10-08",
+  "reference_version": "2.14.21",
+  "reference_url": "https://ozan.fun/novwh/",
+  "purpose": "Docs-first repository package for rebuilding the Mivent web product in Flutter.",
+  "counts": {
+    "canonical_docs": 17,
+    "archived_markdown": 111,
+    "contract_files": 8
+  },
+  "files": [
+    {
+      "path": "AGENT_CONTEXT.md",
+      "bytes": 2777,
+      "sha256": "93a0026d8154987fef231dffd157b8d53b735140ad0807bf0ba2c03f9376ec4a"
+    },
+    {
+      "path": "AUDIT_REPORT.md",
+      "bytes": 2560,
+      "sha256": "685a7bc2623ead8394b1d7c54a7666cb2d296354b3313ba782a8a5404b51d0b9"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 653,
+      "sha256": "d33e350018f77511b39f28b570af593ba8ed245c64f341a66403680c3d098f74"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3041,
+      "sha256": "08da46466e563ddc755481a5eb67a0570d68afd20abd130beee3d2bc02997ead"
+    },
+    {
+      "path": "REPO_UPLOAD_GUIDE.md",
+      "bytes": 924,
+      "sha256": "c57709550cc0859965fbbc8e5edf126a9c1ef74822de04511cdbf724d8b881db"
+    },
+    {
+      "path": "archive/INDEX.md",
+      "bytes": 493,
+      "sha256": "bf0eb4bbba5bcb5906d64ffd851789dbe2048973bc4c92a6955293a74b8263c5"
+    },
+    {
+      "path": "archive/original-docs/CROSS_PACKAGE_PARITY_AUDIT_2.14.21_V15.1_AR.md",
+      "bytes": 7254,
+      "sha256": "cc958d61d392e91f76d23d1fdba0c86d540ca5290c09252caf84ea7112cb8710"
+    },
+    {
+      "path": "archive/original-docs/DATABASE_CONTRACT_2.14.16_AR.md",
+      "bytes": 7822,
+      "sha256": "5cbc7e1e91bae034f2b0eb8d99150e6a6c800de735d0211af96133092cc05f68"
+    },
+    {
+      "path": "archive/original-docs/DEMO_ACCOUNTS.md",
+      "bytes": 732,
+      "sha256": "67fb52c145ddc783bbeae89ccc5a13514e272787c53dcc9e61754eb6209dc131"
+    },
+    {
+      "path": "archive/original-docs/LARAVEL_13_SYNC_CONTRACT.md",
+      "bytes": 4947,
+      "sha256": "101340800f7de05a8656396007c722b0f606d5c7c13586bd841527b3acc107fe"
+    },
+    {
+      "path": "archive/original-docs/MYFNT_DATA_SYNC_BACKUP_ARCHITECTURE_AUDIT_AR.md",
+      "bytes": 16916,
+      "sha256": "6ebb43bc1506e7496d9dfbef6fa58d38f4311e00038300e324ae30d1fc8ccd83"
+    },
+    {
+      "path": "archive/original-docs/Myfnt_FINAL_API_Contract_v1.1.md",
+      "bytes": 7270,
+      "sha256": "5a17248fa713c7df8c7744306fe366bc368c59853f0f3e76c2151f6656e0355f"
+    },
+    {
+      "path": "archive/original-docs/PRE_STEP20_FEATURES.md",
+      "bytes": 5072,
+      "sha256": "1d12e0dcb807db5d1386ada25d7080ae3a3e21d5f9d9aa04d2351c71818c8504"
+    },
+    {
+      "path": "archive/original-docs/PRE_STEP20_PLAN_SCROLL_R19E.md",
+      "bytes": 553,
+      "sha256": "33badcd0b0b0629a77fcd66f5340bcf9646ef5557ef9262291bfd6a0e9c76302"
+    },
+    {
+      "path": "archive/original-docs/PRE_STEP20_R19F.md",
+      "bytes": 1051,
+      "sha256": "e8fcaf0f3607364fae1af3eb71d0c93c9e3aa8363d170438118bd45aa19bf37f"
+    },
+    {
+      "path": "archive/original-docs/PRE_STEP20_R19G_VISUAL_POLISH.md",
+      "bytes": 2190,
+      "sha256": "5b45ebc644bf5a83b4437266af852168d0edb5de302dd11993419a1999a65e74"
+    },
+    {
+      "path": "archive/original-docs/PRE_STEP20_R19H_QA.md",
+      "bytes": 1703,
+      "sha256": "239cf7644c3b5345eee3354128c906a10526288e59eb28fce03bc630f8c953bd"
+    },
+    {
+      "path": "archive/original-docs/PRE_STEP20_R19I.md",
+      "bytes": 1230,
+      "sha256": "9ae300950f560b0b7da9ade9a9122825ff3bcb83f9c887a4cbc50a47f673f893"
+    },
+    {
+      "path": "archive/original-docs/PRE_STEP20_R19J_NOTIFICATIONS.md",
+      "bytes": 1558,
+      "sha256": "6f48ea0ce61233c2d331f2331596eb81be0948b077b65474748a7fce2a8c557b"
+    },
+    {
+      "path": "archive/original-docs/PRE_STEP20_R19K_ONBOARDING.md",
+      "bytes": 2180,
+      "sha256": "70bac41cf92caf3bc66b193a07659b820eb14bc5d1ded45e1b1d332816adee5d"
+    },
+    {
+      "path": "archive/original-docs/PRE_STEP20_UI_FIX_R19D.md",
+      "bytes": 1223,
+      "sha256": "84ac7cf499f281d63577d9124c58108df10378c589de12b69f5b250b76d74cf2"
+    },
+    {
+      "path": "archive/original-docs/PRE_STEP20_UI_REFINEMENT.md",
+      "bytes": 4151,
+      "sha256": "c2c2c2b4477e8d3a9414ec159e4e2abf30475afc68e78dd9f8b2028535203f4b"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.10_CORE_PREVIEW_REPAIR_AR.md",
+      "bytes": 1202,
+      "sha256": "655ed686fe03be28a07f093aaf8222b603b5d016981d7f55d070ca7b0cb2081d"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.13_AUTO_UI_CALENDAR_INSTALL_AR.md",
+      "bytes": 2864,
+      "sha256": "9ace3d065dc0409f00f4db5a6a6104f9b19edc619e3bdfaf18de9b511641376a"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.14_DATA_INTEGRITY_FOUNDATION_AR.md",
+      "bytes": 1638,
+      "sha256": "e51b16d0477a94fd84a90d83d443e8a21d29533221bd0b17fa6b717a1e20c50a"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.15_CANONICAL_STORAGE_COMPLETION_AR.md",
+      "bytes": 2047,
+      "sha256": "11eff177e98af9a3a0cb4fe33720e804257dd6cd18c044702cfca572761b3265"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.16_FINAL_DATABASE_TENANT_CONTRACT_AR.md",
+      "bytes": 501,
+      "sha256": "d75a01d9380b2c31647fa0b8b532f462b9d9a9f13867832de997bcdb52493b9e"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.17_PLAN_FEATURE_CONTROL_AUDIT_AR.md",
+      "bytes": 838,
+      "sha256": "550c2b8b7bd4836c00bcd96125e8f60ecf6ff20ca7c1087a9b1d22ee2b9e8613"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.18_FEATURE_ENFORCEMENT_COMPLETION_AR.md",
+      "bytes": 869,
+      "sha256": "3f0ca3e9c4922bd704c9563d27adee2a8c1c62961e5588c772e4c0f0f77a444a"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.19_LARAVEL_SYNC_FOUNDATION_AR.md",
+      "bytes": 647,
+      "sha256": "b7fbceae47e7d607d0c1bed2c22e03cc13a4392559719b5067799959ec7541de"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.20_FINAL_PLAN_CONTRACT_ULTRA_AR.md",
+      "bytes": 1111,
+      "sha256": "01819987d298dc32f2697b1f6c23c7734dd978c47f9aa2ac7e9c818fd3893aa1"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.5_COMMUNICATION_HARDENING_AR.md",
+      "bytes": 3228,
+      "sha256": "7f301273a14cfc174044ed4e6a6da44cb12596d055d20fa36bf99ed22e5845c7"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.6_AR.md",
+      "bytes": 567,
+      "sha256": "6ade70e8104d3a2165508f24e47dac07664465aef5d0fd4c2153303488adfa20"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.7_EVENT_REGISTRY_AR.md",
+      "bytes": 1949,
+      "sha256": "a53c388b831c363c0be7efa726944e6d7e62c9e33873ca6caa2844cab7992da5"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.8_RECIPIENT_CHANNEL_RESOLVER_AR.md",
+      "bytes": 618,
+      "sha256": "0d22274dc0c82806d4c0817bc2617d035213381260679621c0830c21c5acc8bf"
+    },
+    {
+      "path": "archive/original-docs/QA_2.14.9_PREVIEW_HOTFIX_AR.md",
+      "bytes": 997,
+      "sha256": "5a75932fed525d0e2b6f0148b6c2b43936de3add799c6ae5f91c57b6261294fb"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_2.13.9_HYDRATION_BOOTSTRAP_DIAGNOSTICS_TESTS.md",
+      "bytes": 1881,
+      "sha256": "7252ac4ab6ca043ce67a968041680a7a05b310f7a0599247b9546e4d74b58dda"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP1.md",
+      "bytes": 1002,
+      "sha256": "023ba0cd2065f4dd95089a267441f07b8d358ed1baa313f30a17ec36c1b6925c"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP10.md",
+      "bytes": 2062,
+      "sha256": "c6522086c8451160c5c50509f12d71f307898bd8901e251f95b97fc1afe60fdd"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP11.md",
+      "bytes": 3526,
+      "sha256": "55aa21bf3396aa1eec29113cc2f4cba29e7cf1e4eb50a20d6f07d1e9f5de423d"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP12.md",
+      "bytes": 2663,
+      "sha256": "398a25e80d809a40e393e132b47fa72459654bf70c82c769f231ba95d0402e97"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP13.md",
+      "bytes": 3309,
+      "sha256": "0dfdc98ec741ec3000e409a48bd5f6510eb7c7d2635fc28f18cf6070a9d1e28d"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP14.md",
+      "bytes": 2093,
+      "sha256": "6b92dab7d467e3d52667fcb47b4bb79d6928b249e201b7ebe5d4150302998e2f"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP15.md",
+      "bytes": 2440,
+      "sha256": "563dceffea0426f875f52fcc6a3ba3c8aa3635d2799269f2267baf22ac1efe18"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP16.md",
+      "bytes": 2572,
+      "sha256": "3a1c6dd915ad8b2f9df6b195114db6adf7a2a029b791b0aaf89cb30adea60aba"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP17.md",
+      "bytes": 2390,
+      "sha256": "93db742d68434132a2e8f31c35f07ebf86629a20572185c6d452bf9a9ee6c81c"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP18.md",
+      "bytes": 3008,
+      "sha256": "f38fa8ed4d37d75a7ec2bd21ffe276a73443ac4d32de869d54908281aad1a221"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP19.md",
+      "bytes": 3042,
+      "sha256": "15634b8b353001d6f9f3c11e48c6899c578f0b5037472ccfdc99bf6ff5fc3733"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP2.md",
+      "bytes": 2814,
+      "sha256": "ec79d1fede5203743b015689bd86e2f7c6f40d364267f8306d20596ca008fe65"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP20.md",
+      "bytes": 3182,
+      "sha256": "cc106726af7a26b93f64a8d6fc0eca845bdf2be2e94a17129061602d9f0b5c38"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21A.md",
+      "bytes": 2323,
+      "sha256": "b8b89aa7ebba4ca3e5e3a26861b418c633f53bc19ba8c13a2d3f55bcd3179d92"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21B.md",
+      "bytes": 2788,
+      "sha256": "bb9050bde49af94d3d935423dc45f6e74f7427c420b3d26a8c6b152550b17304"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21B1.md",
+      "bytes": 1280,
+      "sha256": "21c1f6f221eda503ad96379bad025cd60e9afe2765604a9e862af393c4397b15"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21C.md",
+      "bytes": 2446,
+      "sha256": "2be07b8b96a1fef474e6d303ccafdb3ba220ea39ca881e248b6a96bb776ce9a3"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21C1.md",
+      "bytes": 706,
+      "sha256": "dfd08a5b06e356582f4fca5061d25e396ff85a39764ccafc2491f007305baf0b"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21C2.md",
+      "bytes": 2966,
+      "sha256": "0fda189fb905c40b88756189868cfb128b45db5204d636dcef164b9a188980c2"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21C3.md",
+      "bytes": 519,
+      "sha256": "327eed13e3f72474e498d67c0105f7b81345556982c76eb2613fee371500a717"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21C3_1.md",
+      "bytes": 853,
+      "sha256": "b3dfb21c6bfb3ad1005714818ceb6c848cfb6133f1686038e213387852a1ef4a"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21C4.md",
+      "bytes": 1697,
+      "sha256": "dce1d852c4a8b9ed740342e42e8d762e637f075d45e0347ae0b5a25203d370da"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21D.md",
+      "bytes": 2050,
+      "sha256": "701fa053ccbd1c69a61c8d91f3e6a07e1938e9403682b894cb76482427cb060d"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21D1.md",
+      "bytes": 544,
+      "sha256": "5a2e1fa4a77545a7ec2ccecc6a0a347a7b947249100382320da4a6959829d043"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21D2.md",
+      "bytes": 1195,
+      "sha256": "a37a7fbeac2e95abb9a1989c0e6c1771d250277dd7de93530a206fe20c8d92aa"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21D3.md",
+      "bytes": 537,
+      "sha256": "50863bf13b0c0c1c0ed579f4da163b76ccc9d7d5633d01165c0cb688860a6e00"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21D4.md",
+      "bytes": 1292,
+      "sha256": "918010aba87767e81770e379d5ed65211d51df31a83930545d4b678c9ef38459"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21D4_1.md",
+      "bytes": 419,
+      "sha256": "69f0956ec9af01fbcf9d7fece3a59bb0d6f28a0bb011d44106181d708eb82250"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21F.md",
+      "bytes": 2803,
+      "sha256": "fda1160bce363f85d7b15e4e3eba32953d6644649de5eb430f2741ca1c6089ec"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21F1.md",
+      "bytes": 598,
+      "sha256": "1c1a3feba80d2bc603c0b8c3afd9cce906cd580d69e0726cf754589f7d7af7d6"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21F2.md",
+      "bytes": 2896,
+      "sha256": "45a1bad99082928fe9fe7a972fc6ccdc6ce3d99e1c1a44430c4ea151250df622"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21F3_AUDIT_FIX.md",
+      "bytes": 2346,
+      "sha256": "13216447fd7b8d551bf8730686e330484c0bef2b1419880141d634adadcee3fb"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21F_SAVE_RECOVERY.md",
+      "bytes": 518,
+      "sha256": "6ac12809db56ac2c75afcd4d0025602aedafb186edde2a1a1966edc076624f7c"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21G_LOCAL_CACHE.md",
+      "bytes": 3316,
+      "sha256": "a6ba6b3fd58e0ad6f0f2bf773035aa1c3b0369bb17e18c5bb0afa300b145e625"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21H_DEEP_STABILITY.md",
+      "bytes": 4164,
+      "sha256": "0ef35ff9640a94cd7a2be9cc30ad075af1e396a5eec0475f28be9068894d2a2a"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21I_LARGE_DATA_RUNTIME.md",
+      "bytes": 2569,
+      "sha256": "349660c43120aa9b829459af155fc19f6b227732c88ace5f2d3d599bf754924e"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21J_LAZY_DOMAIN_HYDRATION.md",
+      "bytes": 6248,
+      "sha256": "09c22fa95c43b0ad292d667fc709bda0022bcdcfe5b7d25457289b2627eb50d7"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21K_NOTIFICATION_TIMELINE.md",
+      "bytes": 2976,
+      "sha256": "bbf5b3d9cae5040170377b83fd12ccb494889ce7f00feda3a841edbb3ebabc14"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21L_STORAGE_SESSIONS.md",
+      "bytes": 4694,
+      "sha256": "f383ee960c9619cd98256a4705337d8ab3a33673007b29729c537a83624eca76"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21M_STORAGE_PROFILER.md",
+      "bytes": 1688,
+      "sha256": "ddb82806cc58ccf3c7088632840a36e685452ebfbc14122422068c0becd2c75e"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21N1_BACKUP_SYNC_RESTORE_AUDIT.md",
+      "bytes": 722,
+      "sha256": "07c12eb2e5c7b484e14815b14ce0c349ea8ad25bc8a689feaa376c40156e3ddc"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21N2_INITIAL_COMPANY_BOOTSTRAP.md",
+      "bytes": 6546,
+      "sha256": "8a4a703e83cefe631a1bf1cdb7bac13b899c5fa279c2b1528a19e6d7e9918376"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP21N_TWO_YEAR_WORKING_SET_RETENTION.md",
+      "bytes": 2695,
+      "sha256": "9984c51a7b9d3053a0687aca7e44f8e749531f655c3600f5f1066310e8610475"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP22A1_LOCAL_DATA_ADOPTION_GUARD.md",
+      "bytes": 1613,
+      "sha256": "54d208d7e7afe2658bdf6ca58f197ed31d8a56f1a4ea69fc5493d328633f2d7a"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP22A2_FIRST_SERVER_ADOPTION.md",
+      "bytes": 2448,
+      "sha256": "c4d5046ef517d8e56f89846d957f571d8348d91f3e9e1892ced099e99a9a64f3"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP22A3_BOOTSTRAP_RECONCILIATION_GATE.md",
+      "bytes": 3152,
+      "sha256": "879b1a2f9ea2622ed66ab1fba2f45c7a1445b7d7ef616f43dc2653487e6d31a1"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP22A4_CANONICAL_IDENTITY_CONTRACT.md",
+      "bytes": 3702,
+      "sha256": "c5283a4379b134e986bf0b9f8a6e212915299ebd3b6d387eeb85cd25b6d37716"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP22A5_DATA_AUTHORITY_CLEANUP.md",
+      "bytes": 3107,
+      "sha256": "82c690d2120c1a17c48ab0c2c65e9f5f8e6f454547af02153cbe6826feecd02b"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP22A6_MAPPER_CONSOLIDATION.md",
+      "bytes": 2006,
+      "sha256": "ded1580d845b9c9b9635089c8f828cb977de1e4ab01d0e7795527dab856ac7fe"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP22B_REPOSITORY_AUTHORITY_CLEANUP.md",
+      "bytes": 1211,
+      "sha256": "791228288c8ecca2c4674de9393a9611296530c3b792f6d9d5e34214bd45c4d1"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP3.md",
+      "bytes": 2063,
+      "sha256": "01a2613238ee49a6e199fda33866c6ad5470d4df293d800fb3b5f4dc87709156"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP4.md",
+      "bytes": 1478,
+      "sha256": "c50840818ae1d4f34bc35300ebb4421fbde931238f0e70b4700f868017379bdc"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP5.md",
+      "bytes": 2122,
+      "sha256": "e4bfa2e82e31866b08271c26589da2552da332bf100f696e22042f69a6560f33"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP6.md",
+      "bytes": 1616,
+      "sha256": "e94a86c5d87946efaa6d8273201c5ac343e8bd92277260449ccbfdd05dc776fe"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP7.md",
+      "bytes": 1861,
+      "sha256": "c6d25dca3afda419708dd1ee5e0ed5238ed159159537dc0e5a666e3867b0fd8f"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP8.md",
+      "bytes": 2245,
+      "sha256": "94d649c03f3552cd5fc91422a678ec2c2df944be279da83b8de3006a55006fbf"
+    },
+    {
+      "path": "archive/original-docs/REFACTOR_STEP9.md",
+      "bytes": 2453,
+      "sha256": "22d9b64c0589b907424f1142551b707a3d4d3dc6b1cbbe436b44d0cf80dae984"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.0_BACKUP_ALERTS_PHONE_ACCOUNT_POLISH.md",
+      "bytes": 3918,
+      "sha256": "7e5e64f8e1925253eba5e4b0ea1532ea2ab64fd94cdc01f22ec66ff955bfe231"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.10_CORE_PREVIEW_REPAIR.md",
+      "bytes": 554,
+      "sha256": "9eb8040ac78acf56ab62e361614f61be1c377a4e6dc29545dc771ca1d72bbef6"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.11_SMART_UI_TIMING_FOCUS.md",
+      "bytes": 598,
+      "sha256": "9e8b81b82007b60d442d7f744a6992b15bc15ea75b0dfa7c75153b3ec8e7a120"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.12_RELEASE_READINESS_PRIVACY_STARTUP.md",
+      "bytes": 868,
+      "sha256": "c8540d5b4f8cd680395b36452d0b878529ab880f75dff99a7cf0c95ce211e236"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.13_AUTO_UI_CALENDAR_INSTALL.md",
+      "bytes": 353,
+      "sha256": "54faa091cfa4f244cca8bfbea90cc958a3f5f3bc93e3dc9eb1d747aec24ded9e"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.14_DATA_INTEGRITY_FOUNDATION.md",
+      "bytes": 1264,
+      "sha256": "a79ff5d4cdb561ad0c84c0fea05bfa1dcbe9c2935fa141b24bd69d016fa7e5a7"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.15_CANONICAL_STORAGE_COMPLETION.md",
+      "bytes": 2761,
+      "sha256": "846effec5158612424c761cdef75b12a094f1cc5e081511f1c816bcbacbc25d8"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.16_FINAL_DATABASE_TENANT_CONTRACT.md",
+      "bytes": 585,
+      "sha256": "83df8b87d2065c0820cd97a00cec09de8dd37f01d5995e256d1151e40e0cc3e6"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.17_PLAN_FEATURE_CONTROL_AUDIT.md",
+      "bytes": 1500,
+      "sha256": "e4a8ba5ace754bfff87588cf5fe9a1d84064418819f325b91d26fdb5f02a34f2"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.18_FEATURE_ENFORCEMENT_COMPLETION.md",
+      "bytes": 1187,
+      "sha256": "953e5cd815d054271dbe9aa0e90b053ec949ebfe297cab881d964f0140a48d12"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.19_LARAVEL_SYNC_FOUNDATION.md",
+      "bytes": 657,
+      "sha256": "5d60def9e623d0fac29db08f3343ee6779ed4ef474f75527daac3be699764941"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.1_VISITOR_TRIAL_UPGRADE_FLOW.md",
+      "bytes": 1180,
+      "sha256": "6dfe328b2b045631f43e672fc1f13ab672e5e48b299a9f9834dfebba65863b1c"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.20_FINAL_PLAN_CONTRACT_ULTRA.md",
+      "bytes": 1216,
+      "sha256": "1456cb683a0facfa2399a36fa530553e348507552ca4ca4aba4fb3d0bb6a7154"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.21_ADMIN_APP_TEXT_PARITY.md",
+      "bytes": 417,
+      "sha256": "2d1000a1a037d7538f7d0877196b67aaea18bf59804bbff5661f86591871428f"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.2_VISITOR_EXPERIENCE_ESCALATION.md",
+      "bytes": 541,
+      "sha256": "b0c95ba54063c48669beac1222e9c0f15915e4af410e162caa8df3d1a3fd95e4"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.3_VISITOR_MOBILE_REDESIGN.md",
+      "bytes": 496,
+      "sha256": "c476d79d9d0c652126131a8ed1da830e8c11c3dece236d07d702245d40884912"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.4_UNIFIED_COMMUNICATION_SAFE_PHASE.md",
+      "bytes": 2078,
+      "sha256": "722730584cd2db5ce29596790effdd2bfc4244d70e90f64e6a3edd3954a3a592"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.5_COMMUNICATION_HARDENING.md",
+      "bytes": 687,
+      "sha256": "4662f4a0c2114f2e42fe21f4d848bef616a47fe671a2a59f9db3104c37224cf6"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.6_TEMPLATE_VARIABLES_SMART_RESCHEDULE.md",
+      "bytes": 1219,
+      "sha256": "8bd02020ec6b51d90652acefce121268bd1ecfa8ad8341c9c0d2d7b48a42a8c7"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.7_EVENT_REGISTRY_CONTRACT.md",
+      "bytes": 1060,
+      "sha256": "8b00346e6943fa92650fbb03407bee1879d4604ac01cac26e55d060de69b9377"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.8_RECIPIENT_CHANNEL_RESOLVER.md",
+      "bytes": 1899,
+      "sha256": "6a11cbc05b0b6518ced717dbef767bfc37a84619ef214c0cc19da405ca999a23"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.14.9_PREVIEW_STABILITY_HOTFIX.md",
+      "bytes": 529,
+      "sha256": "b4db9788ed402850e0348257bf114f67e1570d93d334bca81654b2b17fdafb38"
+    },
+    {
+      "path": "archive/original-docs/RELEASE_2.9.7.md",
+      "bytes": 352,
+      "sha256": "6966de8bc36b20919b5ece94b02948ede098d0a8a4d8bc3437575439c1d50fef"
+    },
+    {
+      "path": "archive/original-reference/DATABASE_CONTRACT_2.14.16.json",
+      "bytes": 197129,
+      "sha256": "0ec500b4dd9623bf60d67aadd1eb9d0cc2c49b4e3d1636f66b905779bc4b9e84"
+    },
+    {
+      "path": "archive/original-reference/FEATURE_AUDIT_2.14.17.json",
+      "bytes": 16195,
+      "sha256": "9ce957c12b057ae136fea74b0398932efa034ab87c4ccb21b334945a99736bbb"
+    },
+    {
+      "path": "archive/original-reference/FEATURE_AUDIT_2.14.18.json",
+      "bytes": 16528,
+      "sha256": "8439b811788e9f13b93ba79cf01a2cce423879e0e6ed3fe5def28dc08bc32556"
+    },
+    {
+      "path": "archive/original-reference/MYSQL_SCHEMA_BLUEPRINT_2.14.16.sql",
+      "bytes": 24672,
+      "sha256": "dc5714658385ece5f5396acfb81893c3dcede082ab3b4d1698b97e7f3f005711"
+    },
+    {
+      "path": "archive/original-reference/Myfnt_2.14.16_Database_Tenant_Isolation_Contract.xlsx",
+      "bytes": 56086,
+      "sha256": "0b0d4f3b2c5c4965643b645573d4f6117adf66890ad97e0b85b8598d9343bebc"
+    },
+    {
+      "path": "archive/original-reference/Myfnt_2.14.17_Plan_Feature_Control_Audit.xlsx",
+      "bytes": 20271,
+      "sha256": "a2e153260443e86d82c41d704bde367fedf0d7744c9fd6de66f4f7adb822a0d2"
+    },
+    {
+      "path": "archive/original-reference/Myfnt_2.14.18_Feature_Enforcement_Audit.xlsx",
+      "bytes": 13254,
+      "sha256": "48f5e671057bf98f6943c6e121b7ee34746797e5ff156b0427bf302639ec77cd"
+    },
+    {
+      "path": "archive/original-reference/Myfnt_FINAL_Database_API_Contract_Laravel13_v1.1.xlsx",
+      "bytes": 68733,
+      "sha256": "b80bb7ec3a0de165d6fee7de955b54dcff0c589ce43937e0289ae95a331b8606"
+    },
+    {
+      "path": "archive/original-reference/R19H_AUDIT.json",
+      "bytes": 362,
+      "sha256": "c76675a8f2da7de5311dbb9cb738586cd6d03cffdf1a575857be2179bb363b45"
+    },
+    {
+      "path": "archive/original-reference/manifest.json",
+      "bytes": 1927,
+      "sha256": "8a76422b937127309ee1516a8b02fadfc98e51f8698667b9caf027c165047826"
+    },
+    {
+      "path": "contracts/DATABASE_CONTRACT_2.14.16.json",
+      "bytes": 197129,
+      "sha256": "0ec500b4dd9623bf60d67aadd1eb9d0cc2c49b4e3d1636f66b905779bc4b9e84"
+    },
+    {
+      "path": "contracts/FEATURE_AUDIT_2.14.17.json",
+      "bytes": 16195,
+      "sha256": "9ce957c12b057ae136fea74b0398932efa034ab87c4ccb21b334945a99736bbb"
+    },
+    {
+      "path": "contracts/FEATURE_AUDIT_2.14.18.json",
+      "bytes": 16528,
+      "sha256": "8439b811788e9f13b93ba79cf01a2cce423879e0e6ed3fe5def28dc08bc32556"
+    },
+    {
+      "path": "contracts/MYSQL_SCHEMA_BLUEPRINT_2.14.16.sql",
+      "bytes": 24672,
+      "sha256": "dc5714658385ece5f5396acfb81893c3dcede082ab3b4d1698b97e7f3f005711"
+    },
+    {
+      "path": "contracts/R19H_AUDIT.json",
+      "bytes": 362,
+      "sha256": "c76675a8f2da7de5311dbb9cb738586cd6d03cffdf1a575857be2179bb363b45"
+    },
+    {
+      "path": "contracts/feature-catalog.json",
+      "bytes": 26200,
+      "sha256": "18a3f691766f0a3f9b447eb754ef325bed22ff306471f421c8903b3f72f4fdf8"
+    },
+    {
+      "path": "contracts/laravel13-sync-contract.json",
+      "bytes": 2861,
+      "sha256": "c6f44c4f736c22caef0d1a469f4cd074742e94ef5e0019d5fbbc7ad637cc059d"
+    },
+    {
+      "path": "contracts/subscription-plans.json",
+      "bytes": 13792,
+      "sha256": "196069dac1689190dd70f0fb38257b7ffb216f219dbedc24122f60356d8d3ef7"
+    },
+    {
+      "path": "docs/00_SOURCE_OF_TRUTH.md",
+      "bytes": 2066,
+      "sha256": "204c36bbac53509533615d86ff35d96c4402ff8215a4fd088d7577666682561f"
+    },
+    {
+      "path": "docs/01_PRODUCT_SPEC.md",
+      "bytes": 3477,
+      "sha256": "a7e301ac788314376f78cf7c90b90191bcf6525d34c5e5247f94de02a7faad7d"
+    },
+    {
+      "path": "docs/02_SCREEN_MAP_AND_FLOWS.md",
+      "bytes": 4010,
+      "sha256": "a250ac1b6dc44468c7a2454d705bf6570e18b73e4da3b22c425cac5dd16134c3"
+    },
+    {
+      "path": "docs/03_UI_UX_SPEC.md",
+      "bytes": 2835,
+      "sha256": "30c929d2686e110ffb8a62dc68b3bd43de4e8a2b24a240b63d5fa8b94e073560"
+    },
+    {
+      "path": "docs/04_DOMAIN_DATA_MODEL.md",
+      "bytes": 3699,
+      "sha256": "78fe5cc20609f61031b1e3eb438f7d819c5dfca226e01e35f5561d586ae41561"
+    },
+    {
+      "path": "docs/05_LOCAL_FIRST_ARCHITECTURE.md",
+      "bytes": 2607,
+      "sha256": "add292e665b3040193d4563f8fc7dea43b2cb6c4b91324fd4ae11614c09e8898"
+    },
+    {
+      "path": "docs/06_SYNC_API_CONTRACT.md",
+      "bytes": 3340,
+      "sha256": "481056cc152ab01ec7647224f7c40cd8b5ef5d9434c6a85652004bf50751e658"
+    },
+    {
+      "path": "docs/07_AUTH_COMPANY_AND_ACCESS.md",
+      "bytes": 2011,
+      "sha256": "f486b8dd8ddb8188bb2678daac097981b8d96070e01ffd95021e905beb516610"
+    },
+    {
+      "path": "docs/08_PLANS_AND_FEATURE_GATES.md",
+      "bytes": 1861,
+      "sha256": "0335e6e3ac7af5307f078d6a830a70081088980e02f397171e359f9ad49df2a5"
+    },
+    {
+      "path": "docs/09_COMMUNICATIONS_AND_NOTIFICATIONS.md",
+      "bytes": 1946,
+      "sha256": "a8e050e59b6999ab109aafa3dd2633f4007cb21c1ed0cadb271537e04901f655"
+    },
+    {
+      "path": "docs/10_BACKUP_RESTORE_IMPORT_EXPORT.md",
+      "bytes": 2077,
+      "sha256": "a4b199371178fbd964ed40f39031b7be232b9c26f24675878a6bd1c28cd95648"
+    },
+    {
+      "path": "docs/11_PERFORMANCE_AND_FLUTTER_TARGET.md",
+      "bytes": 2402,
+      "sha256": "e93724cb522b94a09323155f1d3d7faf231840692996dab005e357f94363e590"
+    },
+    {
+      "path": "docs/12_CURRENT_STATE_AND_GAPS.md",
+      "bytes": 2724,
+      "sha256": "d6e2b88a81c2e0bda53809c9ad9a55feb0d07a51fb09026db11646d782456284"
+    },
+    {
+      "path": "docs/13_ACCEPTANCE_TESTS.md",
+      "bytes": 2050,
+      "sha256": "d21086dc1d8dfdbd3ba74fa17de44e39ead0230735028a4b4c9e0508b28897ec"
+    },
+    {
+      "path": "docs/14_SOURCE_CODE_MAP.md",
+      "bytes": 3631,
+      "sha256": "bbab4328a341427a0fa592049480e07cc219137609af65870ed1b9794400de50"
+    },
+    {
+      "path": "docs/15_FLUTTER_PORTING_SEQUENCE.md",
+      "bytes": 2251,
+      "sha256": "c28cc1309a69f2981e0b772dd3efc23a9da1b34c802b05ad86ebd1d070e09b87"
+    },
+    {
+      "path": "docs/16_DOCUMENT_DECISIONS_AND_CONFLICTS.md",
+      "bytes": 2540,
+      "sha256": "e600c8d1e46423e649b4095228407018f85b011bb107ad41c99389f9cb88d807"
+    },
+    {
+      "path": "reference-assets/README.md",
+      "bytes": 268,
+      "sha256": "d76adddeec3f7a311b69f33b19c658612b03ca9e1833f61f182842311fd6b26c"
+    },
+    {
+      "path": "reference-assets/appstore-phone-1.png",
+      "bytes": 776856,
+      "sha256": "584ad802c412cc9271bbc141fe50080596a9a4dde23f5735dbc18944f1db1af3"
+    },
+    {
+      "path": "reference-assets/appstore-phone-2.png",
+      "bytes": 818221,
+      "sha256": "40577494c8f143db591e0a4005cd6fe94e78e5de96f015b84522b9fdf9c8d073"
+    },
+    {
+      "path": "reference-assets/appstore-phone-3.png",
+      "bytes": 787609,
+      "sha256": "9cb332ae97256622763237fa5bc8806ccb316b305939fd786fb881949522d4fd"
+    },
+    {
+      "path": "reference-assets/qa_receipt_dark_390.png",
+      "bytes": 51708,
+      "sha256": "5237190f887de5155ecb13d7513a0f55523c0f2acea49100fc5e909390d3d26f"
+    },
+    {
+      "path": "reference-assets/qa_receipt_light_320.png",
+      "bytes": 46141,
+      "sha256": "ea4d8a34204b25bc6981c759f442378945211ef30da06be05c5dca4149cc88cb"
+    },
+    {
+      "path": "reference-assets/screenshot-desktop.png",
+      "bytes": 31940,
+      "sha256": "f813743ffb03d28b65eeeda22425cf291e2cae7d91371c83f2fd8b208169da98"
+    },
+    {
+      "path": "reference-assets/screenshot-mobile.png",
+      "bytes": 27009,
+      "sha256": "a3701453c2f48c4c4749fc6bd27a1001b6e54bb39df9875e612e873e39bf4666"
+    }
+  ]
+}

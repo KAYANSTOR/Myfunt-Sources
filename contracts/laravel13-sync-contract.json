@@ -1,0 +1,106 @@
+{
+  "contract_version": "FINAL-v1.1",
+  "frontend_version": "2.14.21",
+  "identity": {
+    "entity_id": "uuid",
+    "client_uuid_is_canonical": true,
+    "server_must_preserve_uuid": true,
+    "operation_id": "uuid op_id",
+    "optimistic_lock": "base_version"
+  },
+  "tenant": {
+    "company_id_source": "authenticated server context",
+    "trust_client_company_id": false,
+    "new_company_activation_required_for_booking_create": true,
+    "pending_company_can_customize_settings": true
+  },
+  "bootstrap": {
+    "manifest": "GET /api/v1/bootstrap/manifest",
+    "batch": "GET /api/v1/bootstrap/batch",
+    "creates_sync_queue": false,
+    "critical_scopes": [
+      "config",
+      "working"
+    ],
+    "working_policy": "current year plus 180 future days",
+    "history_policy": "lazy/on-demand",
+    "audit_logs_policy": "never included in automatic device bootstrap"
+  },
+  "sync": {
+    "push": {
+      "endpoint": "POST /api/v1/sync/push",
+      "max_commands": 100,
+      "request_body": "commands[]",
+      "idempotency": "op_id",
+      "per_item_result": true
+    },
+    "pull": {
+      "endpoint": "GET /api/v1/sync/pull?cursor=&limit=",
+      "max_changes": 500,
+      "cursor": "monotonic server sequence",
+      "creates_sync_queue": false
+    },
+    "refresh": "push_pending_then_pull_cursor",
+    "refresh_never_bootstraps": true
+  },
+  "errors": {
+    "409": "VERSION_CONFLICT",
+    "403_company_pending": "COMPANY_NOT_APPROVED",
+    "422": "VALIDATION_OR_PLAN_LIMIT",
+    "429": "RATE_LIMIT",
+    "503": "RETRYABLE_SERVER_ERROR"
+  },
+  "plans": {
+    "default_new_account_plan": "ULTRA",
+    "entitlements_endpoint": "GET /api/v1/entitlements",
+    "resolution_order": [
+      "company_activation",
+      "active_subscription",
+      "plan_features",
+      "company_feature_overrides",
+      "usage_or_direct_count"
+    ],
+    "resolved_fields": [
+      "feature_code",
+      "enabled",
+      "limit",
+      "period_type",
+      "used",
+      "remaining",
+      "config",
+      "source"
+    ],
+    "server_authoritative": true,
+    "feature_gate_errors": [
+      "FEATURE_NOT_AVAILABLE",
+      "PLAN_LIMIT_REACHED",
+      "MONTHLY_LIMIT_REACHED",
+      "YEARLY_LIMIT_REACHED",
+      "STORAGE_LIMIT_REACHED",
+      "SUBSCRIPTION_EXPIRED",
+      "COMPANY_NOT_APPROVED",
+      "INSUFFICIENT_SMS_BALANCE"
+    ],
+    "current_count_features": [
+      "bookings_limit",
+      "users_limit",
+      "message_numbers_limit",
+      "packages_limit",
+      "integration_accounts_limit",
+      "backup_retention_limit"
+    ],
+    "usage_counter_features": [
+      "sms_monthly_limit",
+      "sms_yearly_limit",
+      "exports_monthly_limit"
+    ],
+    "storage_features": [
+      "backup_storage_bytes"
+    ]
+  },
+  "sms_wallet": {
+    "server_authoritative": true,
+    "offline_generation_allowed": true,
+    "external_send_requires_server": true
+  }
+}

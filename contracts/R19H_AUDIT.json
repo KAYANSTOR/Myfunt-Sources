@@ -1,0 +1,18 @@
+{
+  "js_files": 41,
+  "js_bad": [],
+  "duplicate_ids": [],
+  "missing_index": [],
+  "missing_sw": [],
+  "css_bad": [],
+  "json_bad": [],
+  "checks": {
+    "r19h_css_index": true,
+    "r19h_css_sw": true,
+    "messages_r19h_index": true,
+    "messages_r19h_sw": true,
+    "production_r19h_index": true,
+    "production_r19h_sw": true,
+    "cache_r19h": true
+  }
+}
